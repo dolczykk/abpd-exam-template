@@ -6,6 +6,7 @@ using Apbd.Features.Weather.GetAll;
 using Apbd.Shared.Cqrs;
 using Apbd.Shared.Middlewares;
 using Apbd.Shared.Validation;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,6 +1,5 @@
 using Apbd.Shared.Exceptions;
 using Apbd.Shared.Validation;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Apbd.Shared.Cqrs;
 

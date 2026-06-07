@@ -1,4 +1,5 @@
 using Apbd.Dal.Entities;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Apbd.Dal;
@@ -19,7 +20,7 @@ public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> 
     {
         await context.Set<T>().AddAsync(entity);
     }
-    
+
     public async Task Update(T entity)
     {
         context.Entry(entity).State = EntityState.Modified;
@@ -28,7 +29,7 @@ public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> 
     public async Task Delete(Guid id)
     {
         var entity = await GetById(id);
-        
+
         context.Set<T>().Remove(entity);
     }
 

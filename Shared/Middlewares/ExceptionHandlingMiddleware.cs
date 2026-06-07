@@ -1,4 +1,5 @@
 using Apbd.Shared.Exceptions;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace Apbd.Shared.Middlewares;

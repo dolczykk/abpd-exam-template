@@ -2,6 +2,7 @@ using Apbd.Features.Weather.Create;
 using Apbd.Features.Weather.Dtos;
 using Apbd.Features.Weather.GetAll;
 using Apbd.Shared.Cqrs;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace Apbd.Controllers;

@@ -1,4 +1,5 @@
 using System.Net;
+
 using Apbd.Shared.Validation;
 
 namespace Apbd.Shared.Exceptions;

@@ -1,5 +1,4 @@
 using Apbd.Dal;
-using Apbd.Dal.Entities;
 using Apbd.Features.Weather.Dtos;
 using Apbd.Shared.Cqrs;
 

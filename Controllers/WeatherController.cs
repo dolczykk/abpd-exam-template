@@ -14,7 +14,7 @@ public class WeatherController(IDispatcher dispatcher) : BaseApiController(dispa
     [ProducesResponseType<ProblemDetails>(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Create(CreateWeatherRequest request)
     {
-        var result = await Dispatcher.Dispatch(request);
+        var result = await _dispatcher.Dispatch(request);
 
         return Created("/api/weather", result);
     }
@@ -24,7 +24,7 @@ public class WeatherController(IDispatcher dispatcher) : BaseApiController(dispa
     public async Task<IActionResult> GetAll()
     {
         var request = new GetAllWeatherRequest();
-        var result = await Dispatcher.Dispatch(request);
+        var result = await _dispatcher.Dispatch(request);
 
         return Ok(result);
     }

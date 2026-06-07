@@ -1,0 +1,32 @@
+{
+  "author": "dolczykk",
+  "name": "ASP.NET Core template to setup for APBD exam",
+  "description": "ASP.NET Core template to setup for APBD exam.",
+  "identity": "Apbd.Api",
+  "shortName": "apbd-api",
+  "classifications": [
+    "Web",
+    "API",
+    "APBD"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Apbd",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".git/**",
+            ".idea/**",
+            "bin/**",
+            "obj/**"
+          ]
+        }
+      ]
+    }
+  ]
+}

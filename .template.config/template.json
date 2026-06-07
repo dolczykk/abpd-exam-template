@@ -1,7 +1,7 @@
 {
   "author": "dolczykk",
-  "name": "ASP.NET Core template to setup for APBD exam",
-  "description": "ASP.NET Core template to setup for APBD exam.",
+  "name": "APBD API Template",
+  "description": "ASP.NET Core Web API template to setup for APBD exam.",
   "identity": "Apbd.Api",
   "shortName": "apbd-api",
   "classifications": [
